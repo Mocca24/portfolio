@@ -1,17 +1,17 @@
 :root {
---primary-color: #ff41ed;
+--primary-color: #ff6bd6;
 --secondary-color:#8109b7;
 --thrird-color: #ff8a5c;
 --main-text: #f1f1f1;}
 
 body {
-    background: #0c1845;
+    background: #222438;
     }
 
 .hero h1 {
 font-family: 'Roboto', sans-serif;
 color: whitesmoke;
-margin-top: 150px;
+margin-top: 200px;
 margin-left: 20px;
 font-size: 55px;
 }
