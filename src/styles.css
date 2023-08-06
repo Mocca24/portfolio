@@ -10,6 +10,19 @@ body {
   background-color: var(--secondary-color);
 }
 
+.navbar-brand {color: var(--branding-color);}
+.nav-link {color: black;}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
 
 h1,
 h2,
@@ -47,7 +60,7 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #272142;
+  color: black;
 }
 
 .hero h2 {
@@ -88,6 +101,17 @@ color: var(--branding-color);
   padding: 120px 60px;
 }
 
+
+.portfolio h3 {
+font-family: var(--default-font-family);
+font-size: 20px;
+font-weight: bold;}
+
+.portfolio img {
+  padding: 50px;
+}
+
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -102,6 +126,7 @@ color: var(--branding-color);
     padding: 80px 20px;
   }
 
+
   .project-desciption {
     padding: 0;
     text-align: center;
@@ -111,9 +136,8 @@ color: var(--branding-color);
     text-align: center;
     padding: 0;
   }
-
  
-  img {border-radius: 50%;}
+  .about-section img {border-radius: 50%;}
 
   .content {
     text-align: center;
@@ -123,8 +147,7 @@ color: var(--branding-color);
   padding: 160px 20px;
 }
 
-.content h1 {
-
+.content h1 {font-size:50px;
   line-height: 80px;
 }
 
@@ -151,3 +174,43 @@ color: var(--branding-color);
 .icons {color: var(--branding-color);}
 
 .contact-link {color: black;}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
