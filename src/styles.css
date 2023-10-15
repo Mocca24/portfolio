@@ -10,8 +10,8 @@ body {
   font-family: var(--default-font-family);
   background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
   overflow-x: hidden;
-    margin: 0;
-  padding: 0;
+  background-attachment: fixed;
+
 }
 
 .navbar-brand {color: var(--secondary-color);}
@@ -59,6 +59,7 @@ p {
  background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
   text-align: center;
   padding: 160px 20px;
+  background-attachment: fixed;
 }
 
 .hero p {
@@ -139,9 +140,6 @@ font-weight: bold;}
 }
 
 
-.about-container {
-  overflow-y: hidden ;
-}
   .about-section {margin-top: 100px;
     text-align: center;
   }
@@ -152,7 +150,6 @@ font-weight: bold;}
     text-align: center;
     padding: 0;
   }
-
 
 
 .content h1 {font-size:50px;
@@ -179,7 +176,7 @@ font-weight: bold;}
   margin: 30px;
 }
 
-.icons {color: var(--branding-color);}
+.icons {color: var(--secondary-color);}
 
 .contact-link {color: black;}
 
