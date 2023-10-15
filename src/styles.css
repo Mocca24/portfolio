@@ -8,11 +8,13 @@
 
 body {
   font-family: var(--default-font-family);
-  background-color: var(--secondary-color);
+  background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
   overflow-x: hidden;
+    margin: 0;
+  padding: 0;
 }
 
-.navbar-brand {color: var(--branding-color);}
+.navbar-brand {color: var(--secondary-color);}
 .nav-link {color: black;}
 
 
@@ -54,7 +56,7 @@ p {
 }
 
 .hero {
- background-color: var(--secondary-color);
+ background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
   text-align: center;
   padding: 160px 20px;
 }
@@ -74,7 +76,7 @@ p {
 }
 
 h7 { font-family: var(--default-font-family);
-color: var(--branding-color);
+color: var(--secondary-color);
   font-weight: bold;
   line-height: 1.5;
   font-size: 34px;}
@@ -135,6 +137,11 @@ font-weight: bold;}
     text-align: center;
   }
 }
+
+
+.about-container {
+  overflow-y: hidden ;
+}
   .about-section {margin-top: 100px;
     text-align: center;
   }
@@ -145,9 +152,8 @@ font-weight: bold;}
     text-align: center;
     padding: 0;
   }
-  .content-container {
-  padding: 160px 20px;
-}
+
+
 
 .content h1 {font-size:50px;
   line-height: 80px;
